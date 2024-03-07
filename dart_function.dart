@@ -1,19 +1,16 @@
-// Task 1
+
 int addTwo(int a, int b) {
   return a + b;
 }
 
-// Task 2
 int subtractTwo(int a, int b) {
   return a - b;
 }
 
-// Task 3
 int multiplyTwo(int a, int b) {
   return a * b;
 }
 
-// Task 4
 double divideTwo(double a, double b) {
   if (b != 0) {
     return a / b;
@@ -22,7 +19,6 @@ double divideTwo(double a, double b) {
   }
 }
 
-// Task 5
 int stringLength(String str) {
   return str.length;
 }
@@ -37,11 +33,10 @@ dynamic getFirstElement(List list) {
 }
 
 void main() {
-  // Testing the functions
-  print(addTwo(5, 3)); // Output: 8
-  print(subtractTwo(5, 3)); // Output: 2
-  print(multiplyTwo(5, 3)); // Output: 15
-  print(divideTwo(6, 3)); // Output: 2.0
-  print(stringLength("Hello")); // Output: 5
-  print(getFirstElement([1, 2, 3])); // Output: 1
+  print(addTwo(5, 3)); 
+  print(subtractTwo(5, 3)); 
+  print(multiplyTwo(5, 3)); 
+  print(divideTwo(6, 3)); 
+  print(stringLength("Hello")); 
+  print(getFirstElement([1, 2, 3])); 
 }
